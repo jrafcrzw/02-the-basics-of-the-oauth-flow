@@ -13,7 +13,7 @@ const CLIENT_SECRET = process.env.CLIENT_SECRET;
 
 const REDIRECT_URI = `http://localhost:3000/oauth-callback`;
 
-const authUrl = ``;
+const authUrl = `https://app.hubspot.com/oauth/authorize?client_id=080dcc8f-aa1c-4b5d-b29b-500e7166c99f&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth-callback&scope=oauth+crm.objects.contacts.read`;
 
 const tokenStore = {};
 
